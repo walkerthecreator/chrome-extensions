@@ -1,0 +1,43 @@
+
+body{
+    text-align: center;
+    background-color: #242424;
+    color: aliceblue;
+    max-width: 720px;
+    max-height: 300px;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.h1-wrapper{
+    /* padding: 20px; */
+    height: 60px;
+}
+img{
+    width: 400px;
+    height: 400px;
+    object-fit: contain;
+}
+
+.img-wrapper{
+    
+    width: 40vw;
+    overflow: hidden;
+}
+
+.btn-wrapper{
+    display: flex;
+    margin: 10px auto;
+    justify-content: center;
+}
+
+button{
+    color: white;
+    background-color: #ff6314;
+    padding: 10px ;
+    width: 30vw;
+    border-radius: 8px;
+    outline: 1px #242424 solid;
+    border: none;    
+    margin-bottom: 10px;
+}
